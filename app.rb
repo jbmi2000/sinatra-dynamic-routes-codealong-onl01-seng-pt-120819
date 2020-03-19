@@ -20,7 +20,9 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}!"
   end
   #
-  # get "/multiple/:num1/:num2"
+   get "/multiple/:num1/:num2" do
+     num1 * num2
+   end
 
 
 
